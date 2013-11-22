@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 13px;
+	cursor: default;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	float: left;
+}
+/* alfombras */
+ul.MenuBarHorizontal a.alfombras
+{
+	margin: 0;
+	padding: 0;
+	width: 180px;
+	height: 40px;
+	background-image: url(../images/header/01-alfombras.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.alfombras:hover
+{
+	background-image: url(../images/header/01-alfombras-hover.gif);
+}
+/* alfombrasModulares */
+ul.MenuBarHorizontal a.modulares
+{
+	margin: 0;
+	padding: 0;
+	width: 179px;
+	height: 40px;
+	background-image: url(../images/header/02-modulares.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.modulares:hover
+{
+	background-image: url(../images/header/02-modulares-hover.gif);
+}
+/* moquettes */
+ul.MenuBarHorizontal a.moquettes
+{
+	margin: 0;
+	padding: 0;
+	width: 95px;
+	height: 40px;
+	background-image: url(../images/header/03-moquettes.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.moquettes:hover
+{
+	background-image: url(../images/header/03-moquettes-hover.gif);
+}
+/* Felpudos */
+ul.MenuBarHorizontal a.fieltros
+{
+	margin: 0;
+	padding: 0;
+	width: 75px;
+	height: 40px;
+	background-image: url(../images/header/04-fieltros.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.fieltros:hover
+{
+	background-image: url(../images/header/04-fieltros-hover.gif);
+}
+
+/* fieltro */
+ul.MenuBarHorizontal a.pisos
+{
+	margin: 0;
+	padding: 0;
+	width: 133px;
+	height: 40px;
+	background-image: url(../images/header/05-pisos.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.pisos:hover
+{
+	background-image: url(../images/header/05-pisos-hover.gif);
+}
+/* vinilicosPisosDeGoma */
+ul.MenuBarHorizontal a.vinilicos
+{
+	margin: 0;
+	padding: 0;
+	width: 198px;
+	height: 40px;
+	background-image: url(../images/header/06-vinilicos.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.vinilicos:hover
+{
+	background-image: url(../images/header/06-vinilicos-hover.gif);
+}
+/* cesped */
+ul.MenuBarHorizontal a.cesped
+{
+	margin: 0;
+	padding: 0;
+	width: 68px;
+	height: 40px;
+	background-image: url(../images/header/07-cesped.gif);
+	text-indent: -90000px;
+}
+ul.MenuBarHorizontal a.cesped:hover
+{
+	background-image: url(../images/header/07-cesped-hover.gif);
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	z-index: 1020;
+	cursor: default;
+	width: 176px;
+	position: absolute;
+	left: -1000em;
+	border: 1px solid #EDE8E1;
+}
+ul.MenuBarHorizontal ul li
+{
+	width: 176px;
+	height: 25px;
+	border: thin solid #EDE8E1;
+}
+ul.MenuBarHorizontal ul ul
+{
+	position: absolute;
+	margin: -1px 0 0 100%;
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+{
+	left: auto;
+	top: 0;
+}
+
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #F9F7F4;
+	padding: 5px;
+	color: #606060;
+	text-decoration: none;
+}
+
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	background-color: #F1EEEA;
+	color: #5EBBAE;
+}
+
+ul.MenuBarHorizontal iframe
+{
+	position: absolute;
+	z-index: 1010;
+}
+
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE
+	{
+		display: inline;
+		float: left;
+		background: #000;
+		border: 1px #EDE8E1;
+	}
+}

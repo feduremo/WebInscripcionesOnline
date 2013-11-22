@@ -1,0 +1,343 @@
+/*Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, 
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt,var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i, input {
+	 margin: 0; padding: 0; border: 0; outline: 0; font-weight: normal; font-style: normal;
+	 font-size: 100%; font-family: inherit; vertical-align: baseline}
+body {line-height: 1}
+:focus {outline: 0}
+ol, ul {list-style: none}
+table {border-collapse: collapse; border-spacing: 0}
+blockquote:before, blockquote:after, q:before, q:after {content: ""}
+blockquote, q {quotes: "" ""}
+input, textarea {margin: 0; padding: 0; border:0}
+hr {margin: 0; padding: 0; border: 0; color: #000; background-color: #000; height: 1px}
+/* End Reset CSS*/
+
+/* Clearfix*/
+
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+/* End Clearfix*/
+
+
+html, body {height: 100%;}
+*{margin:0; padding:0;}
+
+body{ background-image:url(../images/public/img/fnd.jpg); margin:0; padding:0; color:#606060; font:normal 13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.floatLeft{float:left}
+.floatRight{float:right}
+.b{font-weight:bold}
+.i{font-style:italic}
+
+h1{font-size:29px;}
+h2{font-size:15px;}
+h3{font-size:17px;}
+h4{font-size:13px;}
+a{text-decoration:none}
+
+.container{ width:975px; margin:0 auto; }
+
+/*header*/
+/*.header{ background-image:url(../images/public/img/fnd-header.png); background-repeat:repeat-x; width:100%}  
+.top{ padding:40px 0px 10px 0px;}
+.logos{}
+.logos li{ float:left; margin-right:30px; }
+.search{ margin-top:40px; float:right}
+.search input.textbox{ width:248px; background:transparent url(../images/public/img/fnd-search.png) no-repeat; font: normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif ; color:#858552; padding:9px; }
+.search input.button{ width:36px; height:39px; background:transparent url(../images/public/img/fnd-ir.png) no-repeat; font:normal 17px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; padding:8px;}
+*/
+
+/*header*/
+
+.header{ background-image:url(../images/public/img/fnd-header.png); background-repeat:repeat-x; width:100%}
+.top{ }
+.logos{padding:40px 0 10px; width:490px; float:left}
+.logos li{ float:left; margin-right:30px; }
+.right{float:right; width:302px; margin:0px 0 10px}
+                .right .search{float:right; margin:50px -2px 15px }
+                               .right .search input.textbox{ width:247px; background:transparent url(../images/public/img/fnd-search.png) no-repeat; font: normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif ; color:#bdbdac; padding:9px; }
+                               .right .search input.button{ width:36px; height:39px; background:transparent url(../images/public/img/fnd-ir.png) no-repeat; font:normal 17px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; padding:8px;}
+
+/* languages */
+.right .languages{}
+        .right .languages a{color:#6b6a5f; font-size:11px; float:right; padding-top:7px}
+                .right .languages a:hover{color:#989680}
+                .right .languages a.bg{color:#ffffff; font-size:12px; font-weight:bold; background:transparent url(../images/public/img/bg-languages.png) no-repeat 0 0; height:22px; width:42px; text-align:center; padding-top:6px; margin-left:6px; display:block}
+                .right .languages a.bg:hover{background-position: 0 -28px; color:#ffffff}
+
+.footer.eng { margin-top:20px; }              
+.footer.eng ul { width:975px}
+.footer.eng ul li {float:left; padding:0 30px; }
+
+.eng .copy{padding:25px 0; text-align:center; }
+
+/* granel detalle eng */
+ul.list-granel{margin-top:7px}
+    ul.list-granel li{margin-bottom:5px; color:#c2b708; text-transform:uppercase}                   
+                                                           
+/*Menu*/
+.menu-rounded { }
+	.menu-rounded div{background-image:url(../images/public/img/fnd-menu.png); background-repeat:no-repeat; background-position: 0 0; }
+		.menu-rounded .left{width:20px; height:74px; display:block; float:left;}
+		.menu-rounded ul.middle{ background-color:#FFF; height:54px;  float:left; width:935px; padding-top:20px}
+			.menu-rounded ul li{ float:left; padding:26px 30px 0px 25px; font-size:19px; }
+			.menu-rounded ul li a{ color:#000; font-family: 'AvantGardeBkBTBook';}
+			.menu-rounded ul li a:hover{color:#989680}
+			.menu-rounded ul li.active{ background:url(../images/public/img/fnd-menu-activo.png) no-repeat; font-family: 'AvantGardeBkBTBook';  color:#FFF; padding:26px 0 0; height:26px; width:125px; text-align:center; margin-right:10px }
+		.menu-rounded .right{background-position:-20px 0; display:block; width:20px;  margin:0; height:74px; float:left;}
+
+/*contenido*/
+.main { background:url(../images/public/img/bg-shadow.png) repeat-x 0 0; width:100%}
+	.main .container{ width:936px; background:#FFF; padding:0 19px 20px 20px}
+
+/*banner*/
+.banner{ width:940px; margin-bottom:20px; }
+.content{ width:940px;}
+/*columna*/
+.columna { width:296px; float:left; padding-right:8px; }
+.columna .text{ margin-top:15px;  padding:15px 4px 12px 2px  }
+.columna .text  h2{ font-size:27px; padding-bottom:8px; }
+.columna .text h3{ font-size:13px; text-transform:uppercase; color:#c2b708; padding:8px 0px;}
+.columna .text p{ color:#606060; line-height:18px;  }
+.boton-gris div{background:transparent url(../images/public/img/fnd-gris.png) no-repeat 0 0; margin-top:15px;}
+		.boton-gris  .left{width:10px; height:32px; display:block; float:left;}
+		.boton-gris  .medio{float:left; background-color:#a7a7a7;  width:54px; height:24px;  padding:8px 0 0px 4px; font:normal 15px ;}
+		.boton-gris  .medio a { color:#fff; font-size:12px;}
+			.boton-gris  .medio a:hover{color:#fff; text-decoration:underline;}
+		.boton-gris  .right{background-position:-10px 0; float:left; width:10px; height:32px; display:block;}	
+/*banner amarillo*/
+.columna .amarillo{ background:transparent url(../images/public/img/fnd-amarillo.png) no-repeat; height:156px; color:#FFF; padding:10px 30px; }
+.columna .amarillo h2{ font-size:27px; text-transform:uppercase; line-height:27px; margin-top:15px;}
+.columna .amarillo p{ padding:8px 0px; color:#FFF; width:170px }
+.boton-amarillo div{background:transparent url(../images/public/img/fnd-blanco.png) no-repeat 0 0; margin-top:8px;}
+		.boton-amarillo .left{width:12px; height:32px; display:block; float:left;}
+		.boton-amarillo .medio{float:left; background-color:#fff;  width:72px; height:24px;  padding:6px 0 0px 4px; font:normal 15px ;}
+		.boton-amarillo .medio a { color:#efa014; font-size:12px;}
+			.boton-amarillo .medio a:hover{color:#efa014; text-decoration:underline;}
+		.boton-amarillo .right{background-position:-12px 0; float:left; width:12px; height:32px; display:block;}	
+
+/*banner naranja*/
+.columna .naranja{ background:transparent url(../images/public/img/fnd-naranja.png) no-repeat; height:156px; color:#FFF; padding:10px 30px; }
+.columna .naranja h2{ font-size:27px; text-transform:uppercase; line-height:27px; margin-top:15px;}
+.columna .naranja p{ padding:8px 0px; color:#FFF; width:170px }
+.boton-naranja div{background:transparent url(../images/public/img/fnd-blanco.png) no-repeat 0 0; margin-top:8px;}
+		.boton-naranja .left{width:12px; height:32px; display:block; float:left;}
+		.boton-naranja .medio{float:left; background-color:#fff;  width:72px; height:24px;  padding:4px 0px 2px 4px; font:normal 15px ;}
+		.boton-naranja .medio a { color:#cf322b; font-size:15px;}
+			.boton-naranja .medio a:hover{color:#cf322b; text-decoration:underline;}
+		.boton-naranja .right{background-position:-12px 0; float:left; width:12px; height:32px; display:block;}	
+
+/*columna gris*/
+.gris{width:326px; float:left;}
+.gris div{background:transparent url(../images/public/img/fnd-col3.png) no-repeat 0 0;}
+
+		.gris .up{width:326px; height:28px; display:block; background-position:0px 0px}
+		.gris .medio{ background-color:#f8f7ef;  width:290px; padding:5px 18px; }
+			.gris .medio h2{ font-size:27px; line-height:27px;}
+			.gris .medio ul {}
+			.gris .medio ul li{ padding:25px 0 10px; border-bottom:#d2d0c1 thin solid;}
+			.gris .medio ul li h4 a{ font-size:25px; color:#c2b708; padding:0px 0px 8px 0px; line-height:25px }
+			.gris .medio ul li a{ color:#000; }
+			.gris .medio ul li.last{ border:none; }
+                        .gris .medio ul li h4 a:hover{color:#e0d525; }
+                        .gris .medio ul li a:hover{ color:#616161; }   
+		.gris .button{width:326px; height:28px; display:block; background-position:0px -28px}	
+ 
+
+.footer { margin-top:50px; }
+.footer ul {width:760px; float:left}
+                .footer ul li {float:left; padding:10px 12px 10px 0; }
+                
+                .footer ul li.abundancia{margin-top:0px; }
+                               .footer ul li.silcom{margin-top:13px; }
+                               .footer ul li.kyoto{margin-top:20px; }
+                               .footer ul li.bambina{margin-top:28px; }
+                               .footer ul li.metro{margin-top:9px; }
+                               .footer ul li.frutero{margin-top:41px; }
+                               .footer ul li.catering{margin-top:15px; padding-right:0 }
+                               
+.verde{ background:transparent url(../images/public/img/fnd-verde.png) no-repeat; width:187px; height:112px; color:#FFF; padding:20px 0px 0px 22px; float:right; }
+/*footer*/
+
+/*.footer	 ul {width:707px; float:left}
+	.footer	 ul li {float:left; padding:10px; }*/
+
+/*banner verde*/
+/*.verde{ background:transparent url(../images/public/img/fnd-verde.png) no-repeat; width:218px; height:112px; color:#FFF; padding:20px 0px 0px 25px; float:right; }*/
+.verde h2{ font-size:23px; text-transform:uppercase; line-height:27px; width:170px}
+.verde p{padding:8px 0px; color:#FFF  }
+.boton-verde{margin-top:8px; width:100px}
+.boton-verde div{background:transparent url(../images/public/img/fnd-blanco.png) no-repeat 0 0; }
+		.boton-verde .left{width:12px; height:32px; display:block; float:left;}
+		.boton-verde .medio{float:left; background-color:#fff;  width:70px; height:25px; padding-top:5px; }
+		.boton-verde .medio a { color:#c2b708; font-size:15px;}
+			.boton-verde .medio a:hover{color:#c2b708; text-decoration:underline;}
+		.boton-verde .right{background-position:-12px 0; float:left; width:12px; height:32px; display:block;}		
+
+/*derechos*/
+.copy{padding:10px 0; text-align:center; }
+.copy p{color:#FFF; font-size:11px;}
+
+@font-face {
+    font-family: 'AvantGardeBkBTBook';
+    src: url('avgardn-webfont.eot');
+    src: url('avgardn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('avgardn-webfont.woff') format('woff'),
+         url('avgardn-webfont.ttf') format('truetype'),
+         url('avgardn-webfont.svg#AvantGardeBkBTBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvantGardeBkBTBook';
+    src: url('avgardn-webfont.eot');
+    src: url('avgardn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('avgardn-webfont.woff') format('woff'),
+         url('avgardn-webfont.ttf') format('truetype'),
+         url('avgardn-webfont.svg#AvantGardeBkBTBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*titulo detalle pruductos*/
+.titulo-pruducto{width:940px; margin-bottom:40px}
+.titulo-pruducto div{background:transparent url(../images/public/img/fnd-productos.png) no-repeat 0 0; }
+		.titulo-pruducto .left{width:9px; height:56px; display:block; float:left;}
+		.titulo-pruducto .medio{float:left; background-color:#a19e89;  width:920px; height:56px;  color:#fff; font-size:27px; text-transform:uppercase;}
+			.titulo-pruducto .medio ul {}
+				.titulo-pruducto .medio li.izquierda { float:left; padding-top:20px; padding-left:15px; line-height:25px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+				.titulo-pruducto .medio li.derecha { float:right; padding-top:15px; padding-right:15px;}
+				.titulo-pruducto .right{background-position:-9px 0; float:left; width:9px; height:56px; display:block;}		
+				
+/*resultados*/
+.resultados { width:100%; float:left; padding-right:8px; border-bottom:thin solid #a6a6a6; }
+.resultados.texto { margin-top:15px;  padding:15px 4px 12px 2px  }
+.resultados.texto   h2{ font-size:17px; color:#000; text-decoration:underline; padding-bottom:8px; }
+.resultados.texto   p{ color:#606060; line-height:18px; font-size:13px;  }
+	.resultados .texto a{ color:#c4b908; line-height:18px; font-size:13px;  }
+	.resultados .texto a:hover{ text-decoration:underline}
+	
+.resultados.last { border:none;}
+
+/*contacto*/
+.contacto { border-bottom:thin solid #a6a6a6; margin-bottom:35px; padding-bottom:25px}
+.contacto ul {width:440px; float:left}
+.contacto li { margin-bottom:10px;}
+.contacto ul.chico { width:300px }
+.contacto ul.grande { width:490px; float:right; }
+.contacto ul li h2{ font-size:24px; color:#000; padding-bottom:8px; line-height:24px }
+.contacto ul li.imagen { border:#edeed9 medium solid; display:block; width:482px; height:305px;}
+				.contacto ul li label{ width:400px; text-align:right; color:#333}
+				.contacto ul li input{ width:400px; border:2px solid #d3d3d3; background:#ffffff; padding:5px; color:#666; margin-top:5px }
+				.contacto ul li input.mensaje{ width:400px; height:80px; border:2px solid #d3d3d3; background:#ffffff; padding:5px; color:#666 }
+.contacto.last { border:none; padding:0; margin:0}
+
+.boton-contacto div{background:transparent url(../images/public/img/fnd-enviar.png) no-repeat 0 0; }
+		.boton-contacto .left{width:10px; height:32px; display:block; float:left;}
+		.boton-contacto .medio{float:left; background-color:#dbcf09;  width:230px; height:32px;  color:#fff; font-size:27px; text-transform:uppercase;}
+			.boton-contacto .medio{float:left;   height:24px; padding-top:8px; padding-left:170px; }
+		.boton-contacto .medio a { color:#f9f7d6; text-transform:uppercase; font-size:15px; line-height:20px}
+			.boton-contacto .medio a:hover{color:#fff; }
+				.boton-contacto .right{background-position:-10px 0; float:left; width:10px; height:32px; display:block;}	
+				
+					
+/*productos*/
+ul.productos {}
+	ul.productos li {width:144px; float:left; margin:0 15px 30px 0; height:191px}
+		ul.productos li  img{ border:8px solid #EDEED9; margin-bottom:10px  }
+		ul.productos li  a{ width:29px; height:29px; background:transparent url(../images/public/img/fnd-ir-small.png) no-repeat; color:#FFF; padding: 5px 0px 0px 10px; float:right}
+		ul.productos li  p{width:100px; float:left}
+		ul.productos li.last{margin-right:0}
+		
+
+/* paginados */
+ul.paginado{margin:40px auto 15px; width:50px; }
+	ul.paginado li{padding-right:5px; float:left}
+		ul.paginado li a{color:#000000; text-decoration:underline}
+		ul.paginado li a:hover{}
+		
+		
+/* detalle de productos */
+ul.breadcrumb{margin:-17px 0 21px 10px;}
+	ul.breadcrumb li{float:left; margin-right:7px; color:#a19e89}
+		ul.breadcrumb li a{background:transparent url('../images/public/img/bullet-breadcrumb.png') no-repeat right 7px; padding-right:10px; color:#232020}
+	
+	
+.left-column{width:276px; float:left; margin-right:36px}	
+	.left-column .border-rounded{background:#a19e89 url('../images/public/img/sprite-border-menuV.png') no-repeat 0 bottom; width:276px; height:19px; display:block }
+		
+		.left-column .title .border-rounded{background:#a19e89 url('../images/public/img/sprite-border-menuV.png') no-repeat 0 0; width:276px; height:19px; display:block }
+		.left-column .title h3{background:#a19e89; color:#ffffff; text-transform:uppercase; padding:9px 15px 9px 25px }
+	
+	.left-column ul.menu-vertical{background:#f8f7ef; padding:17px 15px 5px 25px }
+		.left-column ul.menu-vertical li{list-style:disc inside none; margin-bottom:7px; color:#a19e89;}
+			.left-column ul.menu-vertical li a{color:#a19e89;}
+			.left-column ul.menu-vertical li a:hover{color:#737059;}
+
+	
+.right-column{width:628px; float:left;}	
+	.right-column h1{color:#232020; font-size:29px; margin-bottom:15px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}		
+	.right-column .box{width:198px; float:left; margin-right:14px}	
+		.right-column .box img{border:7px solid #d8d8bf; margin-bottom:8px}
+		.right-column .box a.btn-recetas{background:transparent url('../images/public/img/btn-recetas.png') no-repeat 0 0; width:198px; height:24px; display:block; color:#ffffff; text-transform:uppercase; padding-top:8px; text-align:center}			
+		.right-column .box a.btn-recetas:hover{background-position:0 -32px; }			
+	
+	.right-column .box-content{width:415px; float:left}
+		.right-column .box-content h2{color:#c2b708; text-transform:uppercase; line-height:15px; margin-bottom:7px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+		.right-column .box-content p{margin-bottom:20px; line-height:21px}
+		
+		.right-column table{margin-bottom:10px; width:100%}
+			.right-column table td{background:#d8d8bf; padding:5px 10px; color:#232020; border-bottom:1px solid #ffffff}
+				.right-column table td.title{background:#a19e89; padding:6px 10px; color:#ffffff; text-transform:uppercase}
+				.right-column table td.border{border-right:1px solid #ffffff}
+
+/* granel */
+
+.granel .right-column .box-content{width:627px; float:left}
+        .granel .right-column .box-content h2{color:#c2b708; text-transform:uppercase; line-height:15px; margin-bottom:7px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+        .granel .right-column .box-content p{margin-bottom:20px; line-height:21px}
+
+        .granel .right-column a.btn-recetas{background:transparent url('../images/public/img/btn-recetas.png') no-repeat 0 0; margin-top:10px; width:198px; height:24px; display:block; color:#ffffff; text-transform:uppercase; padding-top:8px; text-align:center}			
+                .granel .right-column a.btn-recetas:hover{background-position:0 -32px; }	                                                               
+
+/* recetas */
+.recetas{background:transparent url('../images/public/img/banner.jpg') no-repeat 0 0; height:383px}
+	.recetas .search{background:transparent url('../images/public/img/bg-search-recetas.png') repeat-x 0 0; height:88px; width:940px; margin-top:235px; float:left}
+	.recetas .search .textbox{background:transparent url('../images/public/img/bg-input-search.png') no-repeat 0 0; height:48px; width:702px; margin:17px 0 0 20px; float:left; padding-left:20px; padding-top:15px; font-size:15px }
+	.recetas .search .button{background:transparent url('../images/public/img/bg-input-btn-search.png') no-repeat 0 0; height:49px; width:189px; margin:17px 0 0 -21px; float:left; font-size:23px; padding:0}
+
+/* detalle recetas */
+.right-column .box-content .box-receta{margin-bottom:30px; padding:0 10px 10px 0; border-bottom:1px solid #bfbfbf}
+	.right-column .box-content .box-receta.last{margin-bottom:0px; padding-bottom:0px; border-bottom:none}
+        
+        
+/* nosotros */
+.nosotros .columna { width:455px; float:left; margin-right:26px; padding-right:0 }
+        .nosotros .last {margin-right:0px; margin-top:25px}
+        .nosotros .columna .text p{ color:#606060; line-height:18px; margin-bottom:10px }
+        
+h3.form{clear:both}
+
+/* columna */
+.banner-img{width:588px;}
+.one{width:608px; float:left}
+ 
+/* columna gris */
+.gris .medio ul.eng li .image{ border:#d2d0c1 3px solid; width:77px; height:76px; float:left; margin-right:5px}
+                               .gris .medio ul.eng li .text-product{ width:202px; float:left; }
+                               .gris .medio ul.eng li{ height:85px; padding:20px 0 7px}
+                               .gris .medio ul.eng li h4{margin-top:5px}
